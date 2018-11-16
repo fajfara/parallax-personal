@@ -1,0 +1,62 @@
+@import url("https://fonts.googleapis.com/css?family=VT323|Vollkorn");
+@keyframes fadeIn {
+  from {
+    opacity: 0; }
+  to {
+    opacity: 100; } }
+
+.fadeIn {
+  animation: fadeIn 1s forwards; }
+
+.parallax-scroll-banner {
+  position: relative;
+  height: 100rem;
+  padding-left: 0;
+  padding-right: 0;
+  overflow: hidden; }
+  .parallax-scroll-banner .layer-1 {
+    position: absolute;
+    z-index: 1; }
+  .parallax-scroll-banner .layer-2 {
+    position: absolute;
+    top: 0;
+    z-index: 10; }
+  .parallax-scroll-banner .layer-3 {
+    position: absolute;
+    top: 0;
+    z-index: 20; }
+  .parallax-scroll-banner .layer-4 {
+    position: absolute;
+    top: 0;
+    z-index: 35; }
+  .parallax-scroll-banner .layer-5 {
+    position: absolute;
+    top: 8rem;
+    left: 15rem;
+    z-index: 50;
+    opacity: 0; }
+  .parallax-scroll-banner .beach-and-sky-layer {
+    position: absolute;
+    top: 0;
+    z-index: 30; }
+  .parallax-scroll-banner .beach-and-sky-layer-1 {
+    position: absolute;
+    top: 0;
+    z-index: 40; }
+
+.about {
+  background-color: #111;
+  position: relative;
+  padding-top: 5rem;
+  z-index: 10000; }
+  .about-title {
+    margin-top: 4rem; }
+    .about-title h1 {
+      font-size: 5em;
+      color: #fff;
+      font-family: "VT323", monospace; }
+    .about-title span {
+      font-size: 1.5rem;
+      margin-top: -1rem;
+      color: #c7c7c7;
+      font-family: "Vollkorn", serif; }
